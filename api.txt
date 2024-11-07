@@ -1,0 +1,8 @@
+{
+    "GLM": "ae7ad378a70b73614082aefef9ba63be.8faLo5y18RQwJ0sN",
+    "Kimi": "sk-ssIiJ9ew0DDFKRca55Xal467dkjsVzS7h7YqVSD1l1Qz8Oik",
+    "Qwen": "sk-68906cf7e89b4373825d8f2ad5eee80b",
+    "selected_llm": "GLM",
+    "selected_theme": "AI黑",
+    "selected_agent": "default"
+}
