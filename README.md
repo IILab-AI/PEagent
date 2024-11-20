@@ -33,27 +33,37 @@
 支持三种国产 LLM：GLM、Kimi 和 Qwen。为了使用这些模型，您需要申请自
 己的 API。以下是 GLM 的 API 申请步骤，Kimi 和 Qwen 的申请步骤类似： <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（1）访问 GLM 官方网站并注册账户。 
-进入网址 https://open.bigmodel.cn/ ，页面如图 1 所述。 
-![start logo](images/link_1.png)
+进入网址 https://open.bigmodel.cn/ ，页面如图 1 所述。
+<p align="center">
+    <img src="images/link_1.png">
+</p>
 <p align="center">图1 GLM官网首页</p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（2）在首页单击控制台，进入控制台，并在用户控制台中，找到 API 管
 理部分。
 
+<p align="center">
 ![start logo](images/link_2.png)
+</p>
 <p align="center">图2 进入控制台</p>
 
+<p align="center">
 ![start logo](images/link_api1.png)
+</p>
 <p align="center">图 3 进入API管理页面</p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（3）创建一个新的 API 密钥，并记录下生成的密钥。 
 
 
+<p align="center">
 ![start logo](images/link_api2.png)
+</p>
 <p align="center">图4 创建api秘钥</p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（4）在 PE Agent-M 中配置 API 密钥，以便软件能够调用大语言模型。双
 击文件夹中的PE Agent-M.exe文件，即可打开软件。在第一次打开时，会在路径下创建一个api.txt文件用于保存配置信息，并弹出“选择 API”窗口，要求
 用户输入密钥，如图5所示。
 
+<p align="center">
 ![start logo](images/link_first.png)
+</p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请确保遵循 GLM、Kimi 和 Qwen 的官方指南来完成 API 的申请和配置，
 否则将无法正常使用后续功能。在使用功能中也可随时点击主界面的“API”
 按钮来修改使用的大模型或密钥。 <br>

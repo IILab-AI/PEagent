@@ -701,7 +701,7 @@ class App(customtkinter.CTk):
                                                 hover_color=self.hover_color,
                                                 command=self.stop_generation,
                                                 corner_radius=10, width=button_width, height=40)
-        self.stop_generation_button.pack(pady=(int(self.window_height*8/15)-50*8, 10))
+        self.stop_generation_button.pack(pady=(max(0, int(self.window_height*8/15)-50*8), 10))
         self.stop_generation_button.configure(state="disabled")
 
         self.button_input = customtkinter.CTkButton(buttons_frame, text='▲', font=self.mini_arrow_font,
@@ -1752,7 +1752,9 @@ class App(customtkinter.CTk):
                 button_dict = json.loads('{' + match.replace("'", '"') + '}')
                 extracted_content.update(button_dict)
             except json.JSONDecodeError:
-                print(f'无法解析以下内容: {match}')
+                self.insert_image('PE Agent-谋略')
+                self.textbox.insert_no_stream(customtkinter.END, f'无法解析以下内容: {match}')
+                self.textbox.after(0, lambda: self.textbox.see(customtkinter.END))
         sorted_keys = sorted(extracted_content.keys(), key=lambda x: int(x.split('_')[1]))
         self.textbox._textbox.config(state="normal")
         for key in sorted_keys:
