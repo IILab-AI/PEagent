@@ -42,19 +42,19 @@
 理部分。
 
 <p align="center">
-![start logo](images/link_2.png)
+    <img src="images/link_2.png">
 </p>
 <p align="center">图2 进入控制台</p>
 
 <p align="center">
-![start logo](images/link_api1.png)
+    <img src="images/link_api1.png">
 </p>
 <p align="center">图 3 进入API管理页面</p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（3）创建一个新的 API 密钥，并记录下生成的密钥。 
 
 
 <p align="center">
-![start logo](images/link_api2.png)
+     <img src="images/link_api2.png">
 </p>
 <p align="center">图4 创建api秘钥</p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（4）在 PE Agent-M 中配置 API 密钥，以便软件能够调用大语言模型。双
@@ -62,7 +62,7 @@
 用户输入密钥，如图5所示。
 
 <p align="center">
-![start logo](images/link_first.png)
+    <img src="images/link_first.png">
 </p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请确保遵循 GLM、Kimi 和 Qwen 的官方指南来完成 API 的申请和配置，
 否则将无法正常使用后续功能。在使用功能中也可随时点击主界面的“API”
